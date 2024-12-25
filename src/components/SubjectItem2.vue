@@ -5,7 +5,7 @@
         <div class="left-div">
           <h1 style="color: white;">{{ Title }}</h1>
           <div class="main-item">
-            <h2>主要功能2</h2>
+            <h2>主要功能</h2>
             <p>利用模型本身能力與知識庫，引導學生解決學習時遇到的困難。</p>
           </div>
           <div class="main-item">
