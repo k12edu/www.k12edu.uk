@@ -1,3 +1,4 @@
+<!-- 數位學習遊戲 -->
 <template>
     <div class="subject-item" :style="subjectStyle">
       <div class="gray-background"></div>
@@ -6,15 +7,15 @@
           <h1 style="color: white;">{{ Title }}</h1>
           <div class="main-item">
             <h2>主要功能</h2>
-            <p>利用模型本身能力與知識庫，引導學生解決學習時遇到的困難。</p>
+            <p>本平台結合學術與IT知識，讓學生在享受遊戲樂趣的同時，輕鬆學習並掌握相關知識。透過互動性強的遊戲設計，學習過程更加生動有趣。</p>
           </div>
           <div class="main-item">
-            <h2>原始模型與訓練</h2>
-            <p>基於 yentinglin/Llama-3-Taiwan-8B-Instruct 模型，針對數學、自然科學、資訊工程、常識進行微調訓練</p>
+            <h2>遊戲特色</h2>
+            <p>遊戲採用RPG模式，玩家將探索地下城，通過問答挑戰獲取經驗和獎勳。此外，玩家可在城鎮與商人交易，提升角色能力，並接受NPC的任務，這些任務除了帶來豐富報酬外，也鼓勵學生實踐程式設計技能。</p>
           </div>
           <div class="main-item">
-            <h2>使用的開源庫</h2>
-            <p>LLaMA-Factory(模型訓練), ollama(模型運行), ragflow(rag知識庫)</p>
+            <h2>核心玩法</h2>
+            <p>遊戲結合問答式戰鬥與程式編寫任務，挑戰學生解決問題的同時，提升他們的學術和編程能力，讓學習與娛樂無縫結合。</p>
           </div>
         </div>
         <div class="right-div">

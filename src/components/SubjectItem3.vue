@@ -1,3 +1,4 @@
+<!-- 老師題目上傳平台 -->
 <template>
     <div class="subject-item" :style="subjectStyle">
       <div class="gray-background"></div>
@@ -6,15 +7,15 @@
           <h1 style="color: white;">{{ Title }}</h1>
           <div class="main-item">
             <h2>主要功能</h2>
-            <p>利用模型本身能力與知識庫，引導學生解決學習時遇到的困難。</p>
+            <p>佔位文字佔位文字佔位文字佔位文字佔位文字佔位文字。</p>
           </div>
           <div class="main-item">
-            <h2>原始模型與訓練</h2>
-            <p>基於 yentinglin/Llama-3-Taiwan-8B-Instruct 模型，針對數學、自然科學、資訊工程、常識進行微調訓練</p>
+            <h2>平台特色</h2>
+            <p>佔位文字佔位文字佔位文字佔位文字佔位文字佔位文字。</p>
           </div>
           <div class="main-item">
-            <h2>使用的開源庫</h2>
-            <p>LLaMA-Factory(模型訓練), ollama(模型運行), ragflow(rag知識庫)</p>
+            <h2>宣傳精神</h2>
+            <p>佔位文字佔位文字佔位文字佔位文字佔位文字佔位文字。</p>
           </div>
         </div>
         <div class="right-div">

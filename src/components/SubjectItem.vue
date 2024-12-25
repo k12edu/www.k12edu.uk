@@ -1,3 +1,4 @@
+<!-- AI 學習助手 -->
 <template>
     <div class="subject-item" :style="subjectStyle">
       <div class="gray-background"></div>
@@ -6,15 +7,15 @@
           <h1 style="color: white;">{{ Title }}</h1>
           <div class="main-item">
             <h2>主要功能</h2>
-            <p>利用模型本身能力與知識庫，引導學生解決學習時遇到的困難。</p>
+            <p>我們的AI學習助手融合了最新的LLM（大語言模型）和RAG（檢索增強生成）技術，能夠在學生學習過程中提供即時幫助，解決學習上的疑難問題，讓學習更具互動性和高效。</p>
           </div>
           <div class="main-item">
             <h2>原始模型與訓練</h2>
-            <p>基於 yentinglin/Llama-3-Taiwan-8B-Instruct 模型，針對數學、自然科學、資訊工程、常識進行微調訓練</p>
+            <p>我們的AI學習助手基於 yentinglin/Llama-3-Taiwan-8B-Instruct 模型進行開發，並針對數學、自然科學、資訊工程及常識等領域進行微調訓練，確保學生能夠獲得精準且有深度的學習輔導。</p>
           </div>
           <div class="main-item">
             <h2>使用的開源庫</h2>
-            <p>LLaMA-Factory(模型訓練), ollama(模型運行), ragflow(rag知識庫)</p>
+            <p>為了確保AI學習助手的穩定運行，我們採用了多種強大的開源技術，包括LLaMA-Factory（用於模型訓練）、ollama（用於模型運行）、以及ragflow（用於實現檢索增強生成技術）。這些技術的組合保證了AI助手在處理學習問題時的高效性與準確性。</p>
           </div>
         </div>
         <div class="right-div">

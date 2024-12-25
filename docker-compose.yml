@@ -9,7 +9,7 @@ services:
   nginx:
     <<: *default-opts
     image: node:18
-    container_name: node
+    container_name: node-official
     volumes:
       - "./:/app"
     ports:
