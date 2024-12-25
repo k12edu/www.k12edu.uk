@@ -5,16 +5,16 @@
         <div class="left-div">
           <h1 style="color: white;">{{ Title }}</h1>
           <div class="main-item">
-            <h2>測試標題</h2>
-            <p>測試內容測試內容測試內容測試內容測試內容測試內容測試內容測試內容測試內容測試內容測試內容測試內容測試內容測試</p>
+            <h2>主要功能</h2>
+            <p>利用模型本身能力與知識庫，引導學生解決學習時遇到的困難。</p>
           </div>
           <div class="main-item">
-            <h2>測試標題</h2>
-            <p>測試內容測試內容測試內容測試內容測試內容測試內容測試內容</p>
+            <h2>原始模型與訓練</h2>
+            <p>基於 yentinglin/Llama-3-Taiwan-8B-Instruct 模型，針對數學、自然科學、資訊工程、常識進行微調訓練</p>
           </div>
           <div class="main-item">
-            <h2>測試標題</h2>
-            <p>測試內容測試內容測試內容測試內容測試內容測試內容測試內容</p>
+            <h2>使用的開源庫</h2>
+            <p>LLaMA-Factory(模型訓練), ollama(模型運行), ragflow(rag知識庫)</p>
           </div>
         </div>
         <div class="right-div">

@@ -13,7 +13,7 @@
       </div>
       <div class="router-list">
         <div class="router-item" @mouseover="setImage(0)" @click="this.$emit('MoveToObject',1)"><h3>AI學習助手</h3></div>
-        <div class="router-item" @mouseover="setImage(1)" @click="this.$emit('MoveToObject',2)"><h3>遊戲</h3></div>
+        <div class="router-item" @mouseover="setImage(1)" @click="this.$emit('MoveToObject',2)"><h3>數位學習遊戲</h3></div>
         <div class="router-item" @mouseover="setImage(2)" @click="this.$emit('MoveToObject',3)"><h3>教師題目上傳平台</h3></div>
         <div class="router-item" @mouseover="setImage(3)" @click="this.$emit('MoveToObject',4)"><h3>Linux Lab</h3></div>
       </div>
@@ -29,10 +29,10 @@
     },
     data(){
       return {
-        title:"K12數位學習遊戲與 AI 學習助手",
-        introduceText: "測試內容測試內容測試內容測試內容測試內容測試內容測試內容測試內容測試內容測試內容測試內容測試內容測試內容測試內容測試內容測試內容",
-        introduceTextArray:["測試內容1","測試內容2","測試內容3","測試內容4","測試內容測試內容測試內容測試內容測試內容測試內容測試內容測試內容測試內容測試內容測試內容測試內容測試內容測試內容測試內容測試內容"],
-        TitleArray:["AI學習助手","遊戲","教師題目上傳平台","Linux Lab",""],
+        title:"K12數位學習遊戲與AI學習助手",
+        introduceText: "我們是由五人組成的團隊，致力於開發數位學習遊戲，使教育變得更加有趣且高效。我們的目標是將引人入勝的遊戲玩法與AI技術結合，打造一個幫助K-12學生以有趣和互動的方式學習的平台。通過整合個性化的學習體驗，我們致力於支持學生發現學習的樂趣，同時達成更好的學習成果。",
+        introduceTextArray:["微調訓練後的LLM結合RAG，善用知識庫回答學生問題","基於Unity引擎開發的3D/2D混合遊戲","便於教師管理和貢獻數位教育遊戲內容的網頁","更豐富的IT知識和技術指南","我們是由五人組成的團隊，致力於開發數位學習遊戲，使教育變得更加有趣且高效。我們的目標是將引人入勝的遊戲玩法與AI技術結合，打造一個幫助K-12學生以有趣和互動的方式學習的平台。通過整合個性化的學習體驗，我們致力於支持學生發現學習的樂趣，同時達成更好的學習成果。"],
+        TitleArray:["AI學習助手","數位學習遊戲","教師題目上傳平台","Linux Lab",""],
         currentImageIndex: 4,
         nextImageIndex: 4,
         images: [
