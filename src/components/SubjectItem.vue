@@ -81,11 +81,11 @@
       flex-direction: column;
       align-items: start;
       height: 30%;
-      width: 50%;
+      width: 90%;
       margin: 20px 0px;
       color: white;
       text-overflow: ellipsis;
-      overflow: hidden;
+      overflow: hidden; 
     }
     .main-div{
       z-index: 1;
