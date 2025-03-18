@@ -41,7 +41,7 @@
     computed:{
       subjectStyle(){
         return {
-          backgroundImage: `url(${require(`../assets/img${this.idx}.jpg`)})`, // 修正引號
+          backgroundImage: `url(${require(`../assets/img${this.idx}.png`)})`, // 修正引號
           backgroundSize: 'cover', // 如果需要覆蓋整個元素
           backgroundPosition: 'center' // 如果需要置中顯示
         };
