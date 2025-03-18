@@ -30,8 +30,8 @@
     data(){
       return {
         title:"K12數位學習遊戲與AI學習助手",
-        introduceText: "我們是由五人組成的團隊，致力於開發數位學習遊戲，使教育變得更加有趣且高效。我們的目標是將引人入勝的遊戲玩法與AI技術結合，打造一個幫助K-12學生以有趣和互動的方式學習的平台。通過整合個性化的學習體驗，我們致力於支持學生發現學習的樂趣，同時達成更好的學習成果。",
-        introduceTextArray:["微調訓練後的LLM結合RAG，善用知識庫回答學生問題","基於Unity引擎開發的3D/2D混合遊戲","便於教師管理和貢獻數位教育遊戲內容的網頁","更豐富的IT知識和技術指南","我們是由五人組成的團隊，致力於開發數位學習遊戲，使教育變得更加有趣且高效。我們的目標是將引人入勝的遊戲玩法與AI技術結合，打造一個幫助K-12學生以有趣和互動的方式學習的平台。通過整合個性化的學習體驗，我們致力於支持學生發現學習的樂趣，同時達成更好的學習成果。"],
+        introduceText: "遊戲與AI結合\n\n解決現存教育問題\n\n讓學習更有趣且高效",
+        introduceTextArray:["大型語言模型結合RAG知識庫與網路檢索\n精準回答學生和教師問題","基於Unity引擎開發的數位學習遊戲\n結合AI學習助手\n提升學習即時性與學習效率","便於教師管理與製作題目\n結合AI學習助手生成題目與詳解\n自動糾錯題目設計","更豐富的IT知識和技術指南","遊戲與AI結合\n\n解決現存教育問題\n\n讓學習更有趣且高效"],
         TitleArray:["AI學習助手","數位學習遊戲","教師題目上傳平台","Linux Lab",""],
         currentImageIndex: 4,
         nextImageIndex: 4,
@@ -40,7 +40,7 @@
           require('../assets/img2.png'),
           require('../assets/img3.png'),
           require('../assets/img4.png'),
-          require('../assets/img5.jpg'),
+          require('../assets/img5.png'),
         ],
         isTransitioning: false,
       }
@@ -76,6 +76,8 @@
       padding: 2%;
       font-size: 20px;
       font-weight: bold;
+      white-space: pre-wrap; /* 換行 */
+      font-size: 30px;
     }
     .image-container {
       z-index: -3;

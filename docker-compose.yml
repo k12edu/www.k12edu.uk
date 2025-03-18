@@ -6,12 +6,12 @@ x-default-opts: &default-opts
   ipc: private
   
 services:
-  nginx:
+  node:
     <<: *default-opts
     image: node:22
-    container_name: node-official
+    container_name: node
     volumes:
       - "./:/app"
     ports:
-      - "8080:8080"
+      - "60080:8080"
     command: sh -c "cd /app && npm install && npm run serve"
