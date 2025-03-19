@@ -7,15 +7,17 @@
           <h1 style="color: white;">{{ Title }}</h1>
           <div class="main-item">
             <h2>主要功能</h2>
-            <p>佔位文字佔位文字佔位文字佔位文字佔位文字佔位文字。</p>
+            <p>更豐富的IT知識和技術指南，以便學生深入學習IT領域</p>
           </div>
           <div class="main-item">
             <h2>平台特色</h2>
-            <p>佔位文字佔位文字佔位文字佔位文字佔位文字佔位文字。</p>
+            <p>將技術基本分為基礎、中階、進階</p>
+            <p>具備Roadmap學習路線圖，以便學生紀錄學習進度</p>
           </div>
           <div class="main-item">
-            <h2>宣傳精神</h2>
-            <p>佔位文字佔位文字佔位文字佔位文字佔位文字佔位文字。</p>
+            <h2>使用方式</h2>
+            <p>進入Linux Lab網頁，依照自身能力選擇不同技術分類</p>
+            <p>跟著路線圖逐步學習，提升IT專業力</p>
           </div>
         </div>
         <div class="right-div">
