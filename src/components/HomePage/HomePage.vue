@@ -24,7 +24,7 @@
     },
     data(){
       return{
-        title:["AI學習助手","數位學習遊戲","教師題目上傳平台","Linux Lab"],
+        title:["AI學習助手","賽博學者","教師平台","Linux Lab"],
       }
     },
     methods:{

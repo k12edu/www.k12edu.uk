@@ -13,8 +13,8 @@
       </div>
       <div class="router-list">
         <div class="router-item" @mouseover="setImage(0)" @click="this.$emit('MoveToObject',1)"><h3>AI學習助手</h3></div>
-        <div class="router-item" @mouseover="setImage(1)" @click="this.$emit('MoveToObject',2)"><h3>數位學習遊戲</h3></div>
-        <div class="router-item" @mouseover="setImage(2)" @click="this.$emit('MoveToObject',3)"><h3>教師題目上傳平台</h3></div>
+        <div class="router-item" @mouseover="setImage(1)" @click="this.$emit('MoveToObject',2)"><h3>賽博學者</h3></div>
+        <div class="router-item" @mouseover="setImage(2)" @click="this.$emit('MoveToObject',3)"><h3>教師平台</h3></div>
         <div class="router-item" @mouseover="setImage(3)" @click="this.$emit('MoveToObject',4)"><h3>Linux Lab</h3></div>
       </div>
     </div>
@@ -32,7 +32,7 @@
         title:"K12數位學習遊戲與AI學習助手",
         introduceText: "遊戲與AI結合\n\n解決現存教育問題\n\n讓學習更有趣且高效",
         introduceTextArray:["大型語言模型結合RAG知識庫與網路檢索\n精準回答學生和教師問題","基於Unity引擎開發的數位學習遊戲\n結合AI學習助手\n提升學習即時性與學習效率","便於教師管理與製作題目\n結合AI學習助手生成題目與詳解\n自動糾錯題目設計","更豐富的IT知識和技術指南","遊戲與AI結合\n\n解決現存教育問題\n\n讓學習更有趣且高效"],
-        TitleArray:["AI學習助手","數位學習遊戲","教師題目上傳平台","Linux Lab",""],
+        TitleArray:["AI學習助手","賽博學者","教師平台","Linux Lab",""],
         currentImageIndex: 4,
         nextImageIndex: 4,
         images: [
